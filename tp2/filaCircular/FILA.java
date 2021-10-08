@@ -673,7 +673,8 @@ public class FILA {
         }while(!ehFim(input[i]));
 
         x = converteLista(input, i, x);
-
+        
+        x.mostrar();
         
         tratandoDado(x);
 
