@@ -674,9 +674,10 @@ public class FILA {
 
         x = converteLista(input, i, x);
         
-        x.mostrar();
         
         tratandoDado(x);
+        
+        x.mostrar();
 
 
     }
